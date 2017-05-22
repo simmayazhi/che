@@ -1,0 +1,80 @@
+
+/*---------------------------------------------------------SECTION---------------------------------------------------------*/
+/*---------------------------------------------------------SECTION---------------------------------------------------------*/
+.pagetitle{
+	
+	display:inline-block;
+	width:100vw;
+}
+.pagetitle h1,h2{
+	width:400px;
+	text-align:center;
+	font-family: 'Squada One', cursive;
+	//font-family: 'Baloo Bhaina', cursive;
+	margin:50px auto auto auto;
+	font-size:5vw;
+	font-weight:100;
+	color:black;
+	text-transform:uppercase;
+	//border-radius:10px;
+	//border:5px solid black;
+	//border-bottom-right-radius:20%;
+	//border-top-left-radius:20%;
+	//border-radius:20%;
+}
+.pagetitle h2{
+	width:300px;
+	font-size:2vw;
+	
+}
+.aboutus{
+	width:80vw;
+	margin:50px auto;
+	//background-color:rgba(38,174,208,1);
+}
+.rowDetails{
+	display:flex;
+	width:80vw;
+	height:auto;
+	margin:40px auto;
+	
+}
+.cheMember{
+	width:200px;
+	height:200px;
+	display:inline-block;
+	border-radius:50%;
+	//padding:30px;
+	//border:5px solid rgba(38,174,208,1);
+}
+.aboutMember{
+	display:inline-block;
+	width:600px;
+	height:140px;
+	background-color:white;
+	margin:20px 30px;
+	border-radius:10px;
+	overflow:hidden;
+	padding:10px;
+}
+.aboutMember h1,p{
+	padding:0;
+	margin:0;
+	font-family: 'Baloo Bhaina', cursive;
+	font-weight:100;
+	
+}
+.aboutMember p{
+	
+	font-family:'monotype corsiva';
+	letter-spacing:3px;
+	word-spacing:5px;
+	font-size:18px;
+	
+}
+.rowDetails:nth-child(2n){
+	justify-content:flex-end;
+	
+}
+
+

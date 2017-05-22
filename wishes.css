@@ -1,0 +1,182 @@
+/*---------------------------------------------------------SECTION---------------------------------------------------------*/
+/*---------------------------------------------------------SECTION---------------------------------------------------------*/
+.pagetitle{
+	
+	display:inline-block;
+	width:100vw;
+}
+.pagetitle h1{
+	width:400px;
+	text-align:center;
+	font-family: 'Squada One', cursive;
+	//font-family: 'Baloo Bhaina', cursive;
+	margin:50px auto auto auto;
+	font-size:5vw;
+	font-weight:100;
+	color:black;
+	//border-radius:10px;
+	text-transform:uppercase;
+	//border:5px solid black;
+	//border-bottom-right-radius:20%;
+	//border-top-left-radius:20%;
+	//border-radius:20%;
+}
+
+#wishes{
+	display:flex;
+	//background-color:rgba(89,30,35,.5);
+	//background-color:rgba(166,133,114,1);
+	//border:2px solid;
+	border-radius:10px;
+	height:auto;
+	margin: 30px auto;
+	width:90vw;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.wishContainer{
+	position:relative;
+	background-color:rgba(239,243,248,1);
+	//background-color:rgba(89,30,35,.2);
+	color:white;
+	display:inline;
+	width:45%;
+	height:550px;
+	border:2px solid background-color:rgba(89,30,35,1);
+	overflow:hidden;
+	margin:10px 10px;
+	border-radius:10px;
+	padding-top:10px;
+	
+	//border-left:5px solid black;
+	border-bottom-right-radius:30%;
+	border-top-left-radius:30%;
+}
+.wishWrapper {
+	width:200px;
+	height:200px;
+	//position:relative;
+	//background-color:white;
+	float:left;
+	padding: 20px 40px 40px 20px;
+	//padding-left:20px;
+	//padding-right:40px;
+	//padding-bottom:70px;
+	margin:10px auto 10px 20px;
+	//border-top:5px solid black;
+	//border:5px solid black;
+	//border-left:5px solid black;
+	//border-bottom-right-radius:30%;
+	//border-top-left-radius:30%;
+}
+.videoContainer{
+	//position:relative;
+	width:200px;
+	height:200px;
+}
+
+.caption{
+	color:black;
+	margin:5px auto;
+	width:220px;
+	font-family:monospace;
+	
+}
+.wishVideo{
+	//position:absolute;
+	width:200px;
+	height:200px;
+	padding:5px;
+	border-radius:50%;
+	object-fit: cover;
+	margin:0 auto;
+	box-shadow:2px 2px 5px 2px gray,-2px -2px 5px 2px gray;
+	border:5px solid rgba(38,174,208,1);
+	opacity:1;
+	
+}
+
+/*
+#controls {
+	//position:absolute;
+	top:230px;
+	left:50%;
+	transform:translateX(-50%);
+	z-index:4;
+	display:inline-block;
+	margin:0 auto;
+	width:220px;
+	height:20px;
+	text-align:center;
+}
+#controls button{
+	//color:rgba(217,78,103,1);
+	color:rgba(34,38,43,1);
+	background-color:transparent;
+	display:inline;
+	//border:2px solid black;
+	border:none;
+	//border-radius:50%;
+	margin-bottom:5px;
+	width:65px;
+	height:65px;
+	font-size:10px;
+	//cursor:pointer;
+}
+#controls button:hover{
+	cursor:pointer;
+	color:rgba(38,174,208,1);
+}*/
+.wishPerson{
+	padding:10px 20px;
+	text-align:justify;
+	color:black;
+	//background-color:yellow;
+	height:400px;
+	overflowY:scroll;
+	
+}
+.wishPerson h1{
+	letter-spacing:3px;
+	font-weight:600;
+	font-family: 'Baloo Bhaina', cursive;
+	color:rgba(38,174,208,1);
+}
+.wishPerson p{
+	//font-family: calibri;
+	font-family: 'Roboto', sans-serif;
+	font-weight:700;
+	line-height:20px;
+	text-indent:50px;
+	font-size:18px;
+	letter-spacing:2px;
+	
+}
+.interest {
+	position:absolute;
+	display:inline-block;
+	left:100px;
+	//text-align:center;
+	//width:100%;
+	//margin:20px auto;
+	
+
+}
+.interest button{
+	
+	border:none;
+	padding:10px;
+	//background-color:rgba(217,78,103,1);
+	border-radius:10px;
+	background-color:rgba(34,38,43,1);
+	color:white;
+	width:150px;
+	
+}
+.interest button:hover{
+	
+	cursor:pointer;
+	color:rgba(38,174,208,1);
+}
+
+
